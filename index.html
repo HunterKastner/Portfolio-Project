@@ -18,16 +18,16 @@
         <ul class="nav__link--list">
           <li>
             <a
-              href=""
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              href="#languages"
+              class="nav__link--anchor link__hovereffect link__hovereffect--black"
               >Languages</a
             >
           </li>
           <li>
             <a
-              href=""
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Project</a
+              href="#projects"
+              class="nav__link--anchor link__hovereffect link__hovereffect--black"
+              >Projects</a
             >
           </li>
           <li>
@@ -60,17 +60,26 @@
             <div class="about-me__links">
               <a
                 href="https://www.linkedin.com/in/hunter-kastner/"
+                target="_blank"
                 class="about-me__link"
               >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
-              <a href="http://github.com/HunterKastner" class="about-me__link">
+              <a
+                href="http://github.com/HunterKastner"
+                target="_blank"
+                class="about-me__link"
+              >
                 <i class="fa-brands fa-github"></i>
               </a>
               <a href="mailto:hwkastner@gmail.com" class="about-me__link">
                 <i class="fa-solid fa-envelope"></i>
               </a>
-              <a href="./assets/resume.docx" class="about-me__link">
+              <a
+                href="./assets/resume.docx"
+                target="_blank"
+                class="about-me__link"
+              >
                 <i class="fa-solid fa-file"></i>
               </a>
             </div>
@@ -78,6 +87,7 @@
           <figure class="about-me__img--container">
             <img
               src="/assets/about.me.png"
+              target="_blank"
               class="about-me__img"
               alt=""
             />
@@ -89,7 +99,9 @@
     <section id="languages">
       <div class="container">
         <div class="row">
-          <h1 class="section-title">This is my <span class="text--purple">Technology Stack</span></h1>
+          <h1 class="section-title">
+            This is my <span class="text--purple">Technology Stack</span>
+          </h1>
           <div class="languages__list">
             <div class="language">
               <figure class="language__img--wrapper">
@@ -135,5 +147,91 @@
         </div>
       </div>
     </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section-title">
+            Here are some of my <span class="text--purple">Projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/loopit.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Project Title Here
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Tech Stacks Used Here
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis error totam labore fugit in, eaque, itaque modi
+                    voluptatibus aliquam voluptate sequi odio consequuntur id
+                    sapiente fuga? Dolorem velit a repudiandae?
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href=""
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href=""
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="/assets/my.logo.png" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popper">Top
+            <i class="fa-solid fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="http://github.com/HunterKastner"
+            class="footer__social--link link__hovereffect link__hovereffect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/hunter-kastner/"
+            class="footer__social--link link__hovereffect link__hovereffect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:hwkastner@gmail.com"
+            class="footer__social--link link__hovereffect link__hovereffect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/resume.docx"
+            class="footer__social--link link__hovereffect link__hovereffect--white"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2024 Hunter Kastner</div>
+      </div>
+    </footer>
   </body>
 </html>
